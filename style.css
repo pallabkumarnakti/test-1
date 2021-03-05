@@ -1,0 +1,74 @@
+body{
+	font-family: 'Kumbh Sans', sans-serif;
+	color:hsl(229, 23%, 23%);
+	font-weight: bolder;
+
+background-repeat: no-repeat;
+ background-image:
+   url(images/bg-pattern-top.svg),
+ url(images/bg-pattern-bottom.svg);
+  background-position:
+    top left,
+    bottom right;
+    background-size: 45%;
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    line-height: 2;
+}
+.card{
+width: 25%;
+height: 35%;
+margin-top: 10%;
+margin-bottom: 9%;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+-webkit-border-radius:10px;
+display:;
+vertical-align: middle;
+background-image:url(images/bg-pattern-card.svg);
+	background-size:;
+	background-position:top;
+	background-repeat: no-repeat;
+	background-size:100% 30%;
+
+}
+.victor{
+	margin: 20% auto 0%;
+	-webkit-border-radius:100px;
+	border: solid 4px white;
+
+}
+.all-stats{
+	display: flex;
+
+}
+.stats{
+	display: inline-block;
+	width: calc(100/3);
+	margin:auto;
+	padding-bottom:4%;
+	height: 20%;
+padding-top: 6%;
+}
+.lighter{
+	font-weight: lighter;
+	color: hsl(0, 0%, 59%);
+	padding-top: 1%;
+	font-size: .8rem;
+}
+hr{
+	color: grey;
+	font-weight: lighter;
+}
+@media screen and (max-width: 720px){
+.card{
+width: 80%;
+height: 35%;
+margin-top: 15%;
+margin-bottom: 9%;
+margin-left: auto;
+margin-right: auto;
+}
+
+}
